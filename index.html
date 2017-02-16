@@ -25,13 +25,12 @@
         { name: "Entertainment", commands: [
           { key: 'n', name: 'Netflix', url: 'https://www.netflix.com/browse', search: '/search/' },
           { key: 'y', name: 'Youtube', url: 'https://www.youtube.com/', search: '/browse-movies/' },
-          { key: 'l', name: 'Laughs', url: 'https://www.youtube.com/', search: '/search?q=' },
+          { key: 't', name: 'CouchTuner', url: 'http://www.couch-tuner.ag/', search: '/search?q=' },
         ] },
       ],
       // if none of the keys are matched, this is used for searching.
       defaultSearch: 'https://www.google.com/search?q=',
-      // the delimiter between the key and your search query.
-      // e.g. to search GitHub for potatoes you'd type "g:potatoes".
+      // the delimiter between the key and your search query.x
       searchDelimiter: ':',
       // the delimiter between the key and a path.
       // e.g. type "r/r/unixporn" to go to "reddit.com/r/unixporn".
@@ -222,12 +221,13 @@
     h1{
       font-size: 3em;
       font-family: 'Lobster', cursive;
+      text-decoration: underline;
 
     }
   </style>
 
   <main>
-  <h1>Welcome, Chrispy</h1>
+  <h1>Welcome, either Old MacDonald or Chrispy</h1>
     <time id="js-clock"></time>
     <form id="js-search-form" autocomplete="off">
       <input id="js-search-input" class="search-input" type="text" autofocus>
