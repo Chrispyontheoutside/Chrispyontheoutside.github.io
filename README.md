@@ -1,2 +1,2 @@
 # HomePage
-My Homepage - Modified version of Tilde.
+My Homepage - modified version of Tilde.
